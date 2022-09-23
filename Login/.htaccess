@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^login login.php [L,QSA] #login görünce login.php sayfasına git
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
+# index.php sayfasına git ve sayfa değerini oradan gelen değer yap dedik

@@ -1,0 +1,7 @@
+Admin 
+Nick Name : serkan
+Password  : 123
+
+User
+Nick Name : samet
+Password  : 123
